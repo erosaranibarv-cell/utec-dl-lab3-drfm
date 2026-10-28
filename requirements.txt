@@ -1,0 +1,16 @@
+numpy
+scipy
+h5py
+pillow
+scikit-learn
+matplotlib
+pyyaml
+tqdm
+transformers
+safetensors
+huggingface_hub
+ipykernel
+nbconvert
+nbformat
+jupyter_client
+pandas

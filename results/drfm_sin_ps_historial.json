@@ -1,0 +1,2322 @@
+[
+ {
+  "epoca": 1,
+  "n_clusters": 114,
+  "frac_hr_agrupadas": 0.14724449752601945,
+  "iters_saltadas": 0,
+  "feats_no_finitas": 0,
+  "lr_etiquetadas": 610,
+  "lr_ambiguas": 4572,
+  "L_cc": 4.692485239505768,
+  "L_ic": -0.798654111661017,
+  "L_ps": 0.0,
+  "seg": 26.262799978256226,
+  "mem_pico_GB": 2.575998464,
+  "val": {
+   "fusion": {
+    "original": {
+     "mAP": 11.488371253970026,
+     "n_consultas": 100,
+     "Rank-1": 20.0,
+     "Rank-5": 32.0,
+     "Rank-10": 41.0
+    },
+    "baja_resolucion": {
+     "mAP": 9.224180789803222,
+     "n_consultas": 100,
+     "Rank-1": 18.0,
+     "Rank-5": 28.000000000000004,
+     "Rank-10": 32.0
+    },
+    "caida_mAP": 2.264190464166804
+   },
+   "sin_fusion": {
+    "original": {
+     "mAP": 11.635093613985394,
+     "n_consultas": 100,
+     "Rank-1": 18.0,
+     "Rank-5": 37.0,
+     "Rank-10": 47.0
+    },
+    "baja_resolucion": {
+     "mAP": 9.231420671264317,
+     "n_consultas": 100,
+     "Rank-1": 19.0,
+     "Rank-5": 28.000000000000004,
+     "Rank-10": 34.0
+    },
+    "caida_mAP": 2.4036729427210766
+   }
+  },
+  "val_clusters": {
+   "precision": 0.15394662123793298,
+   "recall": 0.22336656504902364,
+   "F": 0.18227048105691326,
+   "n_clusters": 65,
+   "frac_agrupadas": 0.6571579503433703
+  },
+  "val_puntaje": 10.356276021886625
+ },
+ {
+  "epoca": 2,
+  "n_clusters": 203,
+  "frac_hr_agrupadas": 0.581811977478246,
+  "iters_saltadas": 0,
+  "feats_no_finitas": 0,
+  "lr_etiquetadas": 2412,
+  "lr_ambiguas": 2770,
+  "L_cc": 6.380321800708771,
+  "L_ic": -0.8463338631391525,
+  "L_ps": 0.0,
+  "seg": 25.70387077331543,
+  "mem_pico_GB": 2.68800768,
+  "val": {
+   "fusion": {
+    "original": {
+     "mAP": 14.12001489706514,
+     "n_consultas": 100,
+     "Rank-1": 25.0,
+     "Rank-5": 40.0,
+     "Rank-10": 51.0
+    },
+    "baja_resolucion": {
+     "mAP": 11.785330822528103,
+     "n_consultas": 100,
+     "Rank-1": 15.0,
+     "Rank-5": 27.0,
+     "Rank-10": 43.0
+    },
+    "caida_mAP": 2.334684074537037
+   },
+   "sin_fusion": {
+    "original": {
+     "mAP": 13.485792625141052,
+     "n_consultas": 100,
+     "Rank-1": 23.0,
+     "Rank-5": 39.0,
+     "Rank-10": 52.0
+    },
+    "baja_resolucion": {
+     "mAP": 11.08648141071365,
+     "n_consultas": 100,
+     "Rank-1": 14.000000000000002,
+     "Rank-5": 32.0,
+     "Rank-10": 43.0
+    },
+    "caida_mAP": 2.399311214427401
+   }
+  },
+  "val_clusters": {
+   "precision": 0.22986867947779874,
+   "recall": 0.2459009639943973,
+   "F": 0.2376146971596903,
+   "n_clusters": 87,
+   "frac_agrupadas": 0.711040676175383
+  },
+  "val_puntaje": 12.952672859796621
+ },
+ {
+  "epoca": 3,
+  "n_clusters": 231,
+  "frac_hr_agrupadas": 0.6459648524142638,
+  "iters_saltadas": 0,
+  "feats_no_finitas": 0,
+  "lr_etiquetadas": 2678,
+  "lr_ambiguas": 2504,
+  "L_cc": 5.399318758249283,
+  "L_ic": -0.8640035280585289,
+  "L_ps": 0.0,
+  "seg": 26.038825035095215,
+  "mem_pico_GB": 2.705337344,
+  "val": {
+   "fusion": {
+    "original": {
+     "mAP": 12.319995469132943,
+     "n_consultas": 100,
+     "Rank-1": 16.0,
+     "Rank-5": 45.0,
+     "Rank-10": 57.99999999999999
+    },
+    "baja_resolucion": {
+     "mAP": 12.966137685908711,
+     "n_consultas": 100,
+     "Rank-1": 20.0,
+     "Rank-5": 37.0,
+     "Rank-10": 49.0
+    },
+    "caida_mAP": -0.6461422167757682
+   },
+   "sin_fusion": {
+    "original": {
+     "mAP": 12.929082973927,
+     "n_consultas": 100,
+     "Rank-1": 22.0,
+     "Rank-5": 46.0,
+     "Rank-10": 56.99999999999999
+    },
+    "baja_resolucion": {
+     "mAP": 12.715684628261256,
+     "n_consultas": 100,
+     "Rank-1": 20.0,
+     "Rank-5": 46.0,
+     "Rank-10": 52.0
+    },
+    "caida_mAP": 0.21339834566574467
+   }
+  },
+  "val_clusters": {
+   "precision": 0.25860183934658176,
+   "recall": 0.331300980472934,
+   "F": 0.29047171855811604,
+   "n_clusters": 99,
+   "frac_agrupadas": 0.7200211304807185
+  },
+  "val_puntaje": 12.643066577520827
+ },
+ {
+  "epoca": 4,
+  "n_clusters": 229,
+  "frac_hr_agrupadas": 0.6807711994540181,
+  "iters_saltadas": 0,
+  "feats_no_finitas": 0,
+  "lr_etiquetadas": 2822,
+  "lr_ambiguas": 2360,
+  "L_cc": 5.386061850786209,
+  "L_ic": -0.8681504651904106,
+  "L_ps": 0.0,
+  "seg": 25.695876121520996,
+  "mem_pico_GB": 2.713749504,
+  "val": {
+   "fusion": {
+    "original": {
+     "mAP": 19.182283709281435,
+     "n_consultas": 100,
+     "Rank-1": 34.0,
+     "Rank-5": 57.99999999999999,
+     "Rank-10": 63.0
+    },
+    "baja_resolucion": {
+     "mAP": 16.560446897019922,
+     "n_consultas": 100,
+     "Rank-1": 28.000000000000004,
+     "Rank-5": 47.0,
+     "Rank-10": 54.0
+    },
+    "caida_mAP": 2.621836812261513
+   },
+   "sin_fusion": {
+    "original": {
+     "mAP": 19.706958706638307,
+     "n_consultas": 100,
+     "Rank-1": 34.0,
+     "Rank-5": 56.00000000000001,
+     "Rank-10": 66.0
+    },
+    "baja_resolucion": {
+     "mAP": 17.831940480977917,
+     "n_consultas": 100,
+     "Rank-1": 31.0,
+     "Rank-5": 47.0,
+     "Rank-10": 57.99999999999999
+    },
+    "caida_mAP": 1.8750182256603907
+   }
+  },
+  "val_clusters": {
+   "precision": 0.2968164178122739,
+   "recall": 0.3717969844277828,
+   "F": 0.33010241404535484,
+   "n_clusters": 88,
+   "frac_agrupadas": 0.7221341785525621
+  },
+  "val_puntaje": 17.87136530315068
+ },
+ {
+  "epoca": 5,
+  "n_clusters": 235,
+  "frac_hr_agrupadas": 0.7056816242961952,
+  "iters_saltadas": 0,
+  "feats_no_finitas": 0,
+  "lr_etiquetadas": 2925,
+  "lr_ambiguas": 2257,
+  "L_cc": 5.444238172769547,
+  "L_ic": -0.8738183042407036,
+  "L_ps": 0.0,
+  "seg": 25.655839920043945,
+  "mem_pico_GB": 2.720226816,
+  "val": {
+   "fusion": {
+    "original": {
+     "mAP": 17.58877805602019,
+     "n_consultas": 100,
+     "Rank-1": 33.0,
+     "Rank-5": 56.99999999999999,
+     "Rank-10": 66.0
+    },
+    "baja_resolucion": {
+     "mAP": 19.024562207421795,
+     "n_consultas": 100,
+     "Rank-1": 33.0,
+     "Rank-5": 52.0,
+     "Rank-10": 57.99999999999999
+    },
+    "caida_mAP": -1.4357841514016059
+   },
+   "sin_fusion": {
+    "original": {
+     "mAP": 18.48974323347191,
+     "n_consultas": 100,
+     "Rank-1": 38.0,
+     "Rank-5": 59.0,
+     "Rank-10": 67.0
+    },
+    "baja_resolucion": {
+     "mAP": 19.034476581377092,
+     "n_consultas": 100,
+     "Rank-1": 36.0,
+     "Rank-5": 50.0,
+     "Rank-10": 63.0
+    },
+    "caida_mAP": -0.5447333479051828
+   }
+  },
+  "val_clusters": {
+   "precision": 0.3162140458461089,
+   "recall": 0.3568839087089066,
+   "F": 0.33532030191600537,
+   "n_clusters": 91,
+   "frac_agrupadas": 0.7448494453248812
+  },
+  "val_puntaje": 18.306670131720992
+ },
+ {
+  "epoca": 6,
+  "n_clusters": 234,
+  "frac_hr_agrupadas": 0.7288858556560314,
+  "iters_saltadas": 0,
+  "feats_no_finitas": 0,
+  "lr_etiquetadas": 3022,
+  "lr_ambiguas": 2160,
+  "L_cc": 5.160291353464126,
+  "L_ic": -0.8804036056995392,
+  "L_ps": 0.0,
+  "seg": 25.65833878517151,
+  "mem_pico_GB": 2.725950464,
+  "val": {
+   "fusion": {
+    "original": {
+     "mAP": 20.78675672005266,
+     "n_consultas": 100,
+     "Rank-1": 35.0,
+     "Rank-5": 53.0,
+     "Rank-10": 64.0
+    },
+    "baja_resolucion": {
+     "mAP": 18.553550293354533,
+     "n_consultas": 100,
+     "Rank-1": 34.0,
+     "Rank-5": 48.0,
+     "Rank-10": 63.0
+    },
+    "caida_mAP": 2.2332064266981284
+   },
+   "sin_fusion": {
+    "original": {
+     "mAP": 23.29921660381274,
+     "n_consultas": 100,
+     "Rank-1": 40.0,
+     "Rank-5": 62.0,
+     "Rank-10": 72.0
+    },
+    "baja_resolucion": {
+     "mAP": 20.076362446095462,
+     "n_consultas": 100,
+     "Rank-1": 27.0,
+     "Rank-5": 56.00000000000001,
+     "Rank-10": 68.0
+    },
+    "caida_mAP": 3.222854157717279
+   }
+  },
+  "val_clusters": {
+   "precision": 0.3420592146706796,
+   "recall": 0.40265304440965644,
+   "F": 0.3698910081743869,
+   "n_clusters": 94,
+   "frac_agrupadas": 0.7776016904384575
+  },
+  "val_puntaje": 19.6701535067036
+ },
+ {
+  "epoca": 7,
+  "n_clusters": 247,
+  "frac_hr_agrupadas": 0.7616447705169767,
+  "iters_saltadas": 0,
+  "feats_no_finitas": 0,
+  "lr_etiquetadas": 3157,
+  "lr_ambiguas": 2025,
+  "L_cc": 4.682108514308929,
+  "L_ic": -0.8793567940592766,
+  "L_ps": 0.0,
+  "seg": 25.72330641746521,
+  "mem_pico_GB": 2.734620672,
+  "val": {
+   "fusion": {
+    "original": {
+     "mAP": 22.70862377402341,
+     "n_consultas": 100,
+     "Rank-1": 40.0,
+     "Rank-5": 64.0,
+     "Rank-10": 73.0
+    },
+    "baja_resolucion": {
+     "mAP": 21.721313070142248,
+     "n_consultas": 100,
+     "Rank-1": 39.0,
+     "Rank-5": 57.99999999999999,
+     "Rank-10": 68.0
+    },
+    "caida_mAP": 0.9873107038811604
+   },
+   "sin_fusion": {
+    "original": {
+     "mAP": 21.34179758650398,
+     "n_consultas": 100,
+     "Rank-1": 39.0,
+     "Rank-5": 66.0,
+     "Rank-10": 74.0
+    },
+    "baja_resolucion": {
+     "mAP": 19.89777197827495,
+     "n_consultas": 100,
+     "Rank-1": 33.0,
+     "Rank-5": 52.0,
+     "Rank-10": 65.0
+    },
+    "caida_mAP": 1.4440256082290297
+   }
+  },
+  "val_clusters": {
+   "precision": 0.3052164261931188,
+   "recall": 0.4078437834720277,
+   "F": 0.3491447716452125,
+   "n_clusters": 91,
+   "frac_agrupadas": 0.7897517168515584
+  },
+  "val_puntaje": 22.214968422082826
+ },
+ {
+  "epoca": 8,
+  "n_clusters": 237,
+  "frac_hr_agrupadas": 0.7884320081897287,
+  "iters_saltadas": 0,
+  "feats_no_finitas": 0,
+  "lr_etiquetadas": 3269,
+  "lr_ambiguas": 1913,
+  "L_cc": 4.5810744667053225,
+  "L_ic": -0.8915998813509941,
+  "L_ps": 0.0,
+  "seg": 25.857527017593384,
+  "mem_pico_GB": 2.740989952,
+  "val": {
+   "fusion": {
+    "original": {
+     "mAP": 22.538476995956884,
+     "n_consultas": 100,
+     "Rank-1": 40.0,
+     "Rank-5": 60.0,
+     "Rank-10": 67.0
+    },
+    "baja_resolucion": {
+     "mAP": 21.80506993296992,
+     "n_consultas": 100,
+     "Rank-1": 35.0,
+     "Rank-5": 54.0,
+     "Rank-10": 65.0
+    },
+    "caida_mAP": 0.7334070629869629
+   },
+   "sin_fusion": {
+    "original": {
+     "mAP": 21.365667923141316,
+     "n_consultas": 100,
+     "Rank-1": 36.0,
+     "Rank-5": 56.00000000000001,
+     "Rank-10": 70.0
+    },
+    "baja_resolucion": {
+     "mAP": 22.109961094504747,
+     "n_consultas": 100,
+     "Rank-1": 37.0,
+     "Rank-5": 56.99999999999999,
+     "Rank-10": 66.0
+    },
+    "caida_mAP": -0.7442931713634309
+   }
+  },
+  "val_clusters": {
+   "precision": 0.2900602604807879,
+   "recall": 0.3688308478207135,
+   "F": 0.32473703300689155,
+   "n_clusters": 94,
+   "frac_agrupadas": 0.8256735340729001
+  },
+  "val_puntaje": 22.171773464463403
+ },
+ {
+  "epoca": 9,
+  "n_clusters": 246,
+  "frac_hr_agrupadas": 0.8036171301825628,
+  "iters_saltadas": 0,
+  "feats_no_finitas": 0,
+  "lr_etiquetadas": 3331,
+  "lr_ambiguas": 1851,
+  "L_cc": 4.107818627357483,
+  "L_ic": -0.8930101758241653,
+  "L_ps": 0.0,
+  "seg": 25.686521291732788,
+  "mem_pico_GB": 2.74498816,
+  "val": {
+   "fusion": {
+    "original": {
+     "mAP": 25.141118591304334,
+     "n_consultas": 100,
+     "Rank-1": 43.0,
+     "Rank-5": 61.0,
+     "Rank-10": 74.0
+    },
+    "baja_resolucion": {
+     "mAP": 23.6028983274762,
+     "n_consultas": 100,
+     "Rank-1": 40.0,
+     "Rank-5": 57.99999999999999,
+     "Rank-10": 67.0
+    },
+    "caida_mAP": 1.5382202638281335
+   },
+   "sin_fusion": {
+    "original": {
+     "mAP": 25.033062781000183,
+     "n_consultas": 100,
+     "Rank-1": 45.0,
+     "Rank-5": 65.0,
+     "Rank-10": 76.0
+    },
+    "baja_resolucion": {
+     "mAP": 23.36437217302353,
+     "n_consultas": 100,
+     "Rank-1": 39.0,
+     "Rank-5": 60.0,
+     "Rank-10": 65.0
+    },
+    "caida_mAP": 1.6686906079766537
+   }
+  },
+  "val_clusters": {
+   "precision": 0.2930001896967562,
+   "recall": 0.44541484716157204,
+   "F": 0.35347772782999587,
+   "n_clusters": 87,
+   "frac_agrupadas": 0.8188061278394083
+  },
+  "val_puntaje": 24.372008459390266
+ },
+ {
+  "epoca": 10,
+  "n_clusters": 240,
+  "frac_hr_agrupadas": 0.8215321617471422,
+  "iters_saltadas": 0,
+  "feats_no_finitas": 0,
+  "lr_etiquetadas": 3406,
+  "lr_ambiguas": 1776,
+  "L_cc": 3.987597978115082,
+  "L_ic": -0.8937809565663337,
+  "L_ps": 0.0,
+  "seg": 25.71592617034912,
+  "mem_pico_GB": 2.749281792,
+  "val": {
+   "fusion": {
+    "original": {
+     "mAP": 26.398831057005196,
+     "n_consultas": 100,
+     "Rank-1": 40.0,
+     "Rank-5": 63.0,
+     "Rank-10": 69.0
+    },
+    "baja_resolucion": {
+     "mAP": 26.144302842116918,
+     "n_consultas": 100,
+     "Rank-1": 43.0,
+     "Rank-5": 56.99999999999999,
+     "Rank-10": 73.0
+    },
+    "caida_mAP": 0.25452821488827837
+   },
+   "sin_fusion": {
+    "original": {
+     "mAP": 25.997981196121913,
+     "n_consultas": 100,
+     "Rank-1": 43.0,
+     "Rank-5": 66.0,
+     "Rank-10": 69.0
+    },
+    "baja_resolucion": {
+     "mAP": 24.171189196761816,
+     "n_consultas": 100,
+     "Rank-1": 36.0,
+     "Rank-5": 53.0,
+     "Rank-10": 67.0
+    },
+    "caida_mAP": 1.826791999360097
+   }
+  },
+  "val_clusters": {
+   "precision": 0.26065349959042505,
+   "recall": 0.5898904177309054,
+   "F": 0.3615498238836496,
+   "n_clusters": 70,
+   "frac_agrupadas": 0.8367670364500792
+  },
+  "val_puntaje": 26.271566949561056
+ },
+ {
+  "epoca": 11,
+  "n_clusters": 258,
+  "frac_hr_agrupadas": 0.8285275550247398,
+  "iters_saltadas": 0,
+  "feats_no_finitas": 0,
+  "lr_etiquetadas": 3435,
+  "lr_ambiguas": 1747,
+  "L_cc": 3.854501827955246,
+  "L_ic": -0.8923809859156608,
+  "L_ps": 0.0,
+  "seg": 25.689152240753174,
+  "mem_pico_GB": 2.751761408,
+  "val": {
+   "fusion": {
+    "original": {
+     "mAP": 25.066243773168505,
+     "n_consultas": 100,
+     "Rank-1": 42.0,
+     "Rank-5": 66.0,
+     "Rank-10": 70.0
+    },
+    "baja_resolucion": {
+     "mAP": 24.183233400051527,
+     "n_consultas": 100,
+     "Rank-1": 36.0,
+     "Rank-5": 55.00000000000001,
+     "Rank-10": 67.0
+    },
+    "caida_mAP": 0.8830103731169778
+   },
+   "sin_fusion": {
+    "original": {
+     "mAP": 26.086715516486166,
+     "n_consultas": 100,
+     "Rank-1": 48.0,
+     "Rank-5": 68.0,
+     "Rank-10": 76.0
+    },
+    "baja_resolucion": {
+     "mAP": 23.768336922944798,
+     "n_consultas": 100,
+     "Rank-1": 35.0,
+     "Rank-5": 62.0,
+     "Rank-10": 68.0
+    },
+    "caida_mAP": 2.318378593541368
+   }
+  },
+  "val_clusters": {
+   "precision": 0.26056768558951965,
+   "recall": 0.4916371426217352,
+   "F": 0.3406113537117904,
+   "n_clusters": 79,
+   "frac_agrupadas": 0.8388800845219229
+  },
+  "val_puntaje": 24.624738586610015
+ },
+ {
+  "epoca": 12,
+  "n_clusters": 260,
+  "frac_hr_agrupadas": 0.8510493089916397,
+  "iters_saltadas": 0,
+  "feats_no_finitas": 0,
+  "lr_etiquetadas": 3528,
+  "lr_ambiguas": 1654,
+  "L_cc": 3.613388417959213,
+  "L_ic": -0.8879953822493554,
+  "L_ps": 0.0,
+  "seg": 25.704266786575317,
+  "mem_pico_GB": 2.757531648,
+  "val": {
+   "fusion": {
+    "original": {
+     "mAP": 28.64464579536568,
+     "n_consultas": 100,
+     "Rank-1": 46.0,
+     "Rank-5": 65.0,
+     "Rank-10": 75.0
+    },
+    "baja_resolucion": {
+     "mAP": 25.94059268899045,
+     "n_consultas": 100,
+     "Rank-1": 45.0,
+     "Rank-5": 63.0,
+     "Rank-10": 72.0
+    },
+    "caida_mAP": 2.7040531063752304
+   },
+   "sin_fusion": {
+    "original": {
+     "mAP": 30.510796753130702,
+     "n_consultas": 100,
+     "Rank-1": 48.0,
+     "Rank-5": 73.0,
+     "Rank-10": 79.0
+    },
+    "baja_resolucion": {
+     "mAP": 26.59520941709983,
+     "n_consultas": 100,
+     "Rank-1": 48.0,
+     "Rank-5": 65.0,
+     "Rank-10": 70.0
+    },
+    "caida_mAP": 3.915587336030871
+   }
+  },
+  "val_clusters": {
+   "precision": 0.4056326880585694,
+   "recall": 0.5067150037076708,
+   "F": 0.45057420737403153,
+   "n_clusters": 84,
+   "frac_agrupadas": 0.8330692023243529
+  },
+  "val_puntaje": 27.292619242178063
+ },
+ {
+  "epoca": 13,
+  "n_clusters": 277,
+  "frac_hr_agrupadas": 0.8633339020644941,
+  "iters_saltadas": 0,
+  "feats_no_finitas": 0,
+  "lr_etiquetadas": 3579,
+  "lr_ambiguas": 1603,
+  "L_cc": 3.5888912892341613,
+  "L_ic": -0.8815929087996482,
+  "L_ps": 0.0,
+  "seg": 25.69886350631714,
+  "mem_pico_GB": 2.761260032,
+  "val": {
+   "fusion": {
+    "original": {
+     "mAP": 28.01650926178913,
+     "n_consultas": 100,
+     "Rank-1": 43.0,
+     "Rank-5": 66.0,
+     "Rank-10": 73.0
+    },
+    "baja_resolucion": {
+     "mAP": 26.394968260148353,
+     "n_consultas": 100,
+     "Rank-1": 44.0,
+     "Rank-5": 61.0,
+     "Rank-10": 69.0
+    },
+    "caida_mAP": 1.6215410016407752
+   },
+   "sin_fusion": {
+    "original": {
+     "mAP": 30.030876354992685,
+     "n_consultas": 100,
+     "Rank-1": 49.0,
+     "Rank-5": 73.0,
+     "Rank-10": 78.0
+    },
+    "baja_resolucion": {
+     "mAP": 26.54567930797506,
+     "n_consultas": 100,
+     "Rank-1": 43.0,
+     "Rank-5": 63.0,
+     "Rank-10": 69.0
+    },
+    "caida_mAP": 3.485197047017625
+   }
+  },
+  "val_clusters": {
+   "precision": 0.3549348334632951,
+   "recall": 0.5250473757930296,
+   "F": 0.42354856933966967,
+   "n_clusters": 90,
+   "frac_agrupadas": 0.8557844690966719
+  },
+  "val_puntaje": 27.205738760968742
+ },
+ {
+  "epoca": 14,
+  "n_clusters": 276,
+  "frac_hr_agrupadas": 0.880225217539669,
+  "iters_saltadas": 0,
+  "feats_no_finitas": 0,
+  "lr_etiquetadas": 3649,
+  "lr_ambiguas": 1533,
+  "L_cc": 3.396767293214798,
+  "L_ic": -0.8804888269305229,
+  "L_ps": 0.0,
+  "seg": 25.699394941329956,
+  "mem_pico_GB": 2.76527104,
+  "val": {
+   "fusion": {
+    "original": {
+     "mAP": 30.260813533262805,
+     "n_consultas": 100,
+     "Rank-1": 50.0,
+     "Rank-5": 70.0,
+     "Rank-10": 76.0
+    },
+    "baja_resolucion": {
+     "mAP": 28.50781565547818,
+     "n_consultas": 100,
+     "Rank-1": 45.0,
+     "Rank-5": 62.0,
+     "Rank-10": 69.0
+    },
+    "caida_mAP": 1.752997877784626
+   },
+   "sin_fusion": {
+    "original": {
+     "mAP": 30.746440171981536,
+     "n_consultas": 100,
+     "Rank-1": 49.0,
+     "Rank-5": 71.0,
+     "Rank-10": 80.0
+    },
+    "baja_resolucion": {
+     "mAP": 28.948380416493833,
+     "n_consultas": 100,
+     "Rank-1": 46.0,
+     "Rank-5": 61.0,
+     "Rank-10": 74.0
+    },
+    "caida_mAP": 1.798059755487703
+   }
+  },
+  "val_clusters": {
+   "precision": 0.22952176965028168,
+   "recall": 0.5253357501853836,
+   "F": 0.3194668871268773,
+   "n_clusters": 78,
+   "frac_agrupadas": 0.8642366613840465
+  },
+  "val_puntaje": 29.384314594370494
+ },
+ {
+  "epoca": 15,
+  "n_clusters": 268,
+  "frac_hr_agrupadas": 0.8887561849513735,
+  "iters_saltadas": 0,
+  "feats_no_finitas": 0,
+  "lr_etiquetadas": 3684,
+  "lr_ambiguas": 1498,
+  "L_cc": 3.2432501947879793,
+  "L_ic": -0.8752461144328118,
+  "L_ps": 0.0,
+  "seg": 25.893948316574097,
+  "mem_pico_GB": 2.767126528,
+  "val": {
+   "fusion": {
+    "original": {
+     "mAP": 30.71726263916219,
+     "n_consultas": 100,
+     "Rank-1": 50.0,
+     "Rank-5": 73.0,
+     "Rank-10": 79.0
+    },
+    "baja_resolucion": {
+     "mAP": 28.915079062850037,
+     "n_consultas": 100,
+     "Rank-1": 45.0,
+     "Rank-5": 67.0,
+     "Rank-10": 76.0
+    },
+    "caida_mAP": 1.802183576312153
+   },
+   "sin_fusion": {
+    "original": {
+     "mAP": 33.58401631567912,
+     "n_consultas": 100,
+     "Rank-1": 54.0,
+     "Rank-5": 72.0,
+     "Rank-10": 80.0
+    },
+    "baja_resolucion": {
+     "mAP": 28.952352488575688,
+     "n_consultas": 100,
+     "Rank-1": 50.0,
+     "Rank-5": 62.0,
+     "Rank-10": 78.0
+    },
+    "caida_mAP": 4.631663827103434
+   }
+  },
+  "val_clusters": {
+   "precision": 0.2068953699578464,
+   "recall": 0.4974046304688144,
+   "F": 0.2922354535773066,
+   "n_clusters": 79,
+   "frac_agrupadas": 0.8658214474379292
+  },
+  "val_puntaje": 29.816170851006113
+ },
+ {
+  "epoca": 16,
+  "n_clusters": 265,
+  "frac_hr_agrupadas": 0.8930216686572258,
+  "iters_saltadas": 0,
+  "feats_no_finitas": 0,
+  "lr_etiquetadas": 3702,
+  "lr_ambiguas": 1480,
+  "L_cc": 3.2636283016204835,
+  "L_ic": -0.8698496034741402,
+  "L_ps": 0.0,
+  "seg": 25.688904523849487,
+  "mem_pico_GB": 2.7679872,
+  "val": {
+   "fusion": {
+    "original": {
+     "mAP": 30.018826709332913,
+     "n_consultas": 100,
+     "Rank-1": 52.0,
+     "Rank-5": 70.0,
+     "Rank-10": 76.0
+    },
+    "baja_resolucion": {
+     "mAP": 29.432152640377552,
+     "n_consultas": 100,
+     "Rank-1": 48.0,
+     "Rank-5": 66.0,
+     "Rank-10": 71.0
+    },
+    "caida_mAP": 0.5866740689553609
+   },
+   "sin_fusion": {
+    "original": {
+     "mAP": 30.323895454903205,
+     "n_consultas": 100,
+     "Rank-1": 50.0,
+     "Rank-5": 73.0,
+     "Rank-10": 78.0
+    },
+    "baja_resolucion": {
+     "mAP": 29.42662394872597,
+     "n_consultas": 100,
+     "Rank-1": 48.0,
+     "Rank-5": 70.0,
+     "Rank-10": 74.0
+    },
+    "caida_mAP": 0.8972715061772334
+   }
+  },
+  "val_clusters": {
+   "precision": 0.3975448817025324,
+   "recall": 0.5510010711048858,
+   "F": 0.461859870851894,
+   "n_clusters": 80,
+   "frac_agrupadas": 0.8420496566296883
+  },
+  "val_puntaje": 29.725489674855233
+ },
+ {
+  "epoca": 17,
+  "n_clusters": 256,
+  "frac_hr_agrupadas": 0.8914860945231189,
+  "iters_saltadas": 0,
+  "feats_no_finitas": 0,
+  "lr_etiquetadas": 3696,
+  "lr_ambiguas": 1486,
+  "L_cc": 3.3132173919677737,
+  "L_ic": -0.8657302901148796,
+  "L_ps": 0.0,
+  "seg": 25.688695430755615,
+  "mem_pico_GB": 2.767145472,
+  "val": {
+   "fusion": {
+    "original": {
+     "mAP": 30.142705697966555,
+     "n_consultas": 100,
+     "Rank-1": 51.0,
+     "Rank-5": 66.0,
+     "Rank-10": 73.0
+    },
+    "baja_resolucion": {
+     "mAP": 28.608775867692675,
+     "n_consultas": 100,
+     "Rank-1": 46.0,
+     "Rank-5": 62.0,
+     "Rank-10": 70.0
+    },
+    "caida_mAP": 1.5339298302738804
+   },
+   "sin_fusion": {
+    "original": {
+     "mAP": 31.662246393080306,
+     "n_consultas": 100,
+     "Rank-1": 51.0,
+     "Rank-5": 74.0,
+     "Rank-10": 84.0
+    },
+    "baja_resolucion": {
+     "mAP": 27.961208533445586,
+     "n_consultas": 100,
+     "Rank-1": 45.0,
+     "Rank-5": 69.0,
+     "Rank-10": 78.0
+    },
+    "caida_mAP": 3.70103785963472
+   }
+  },
+  "val_clusters": {
+   "precision": 0.2778364855830404,
+   "recall": 0.530732470956579,
+   "F": 0.36473535948360064,
+   "n_clusters": 83,
+   "frac_agrupadas": 0.8520866349709456
+  },
+  "val_puntaje": 29.375740782829617
+ },
+ {
+  "epoca": 18,
+  "n_clusters": 262,
+  "frac_hr_agrupadas": 0.887732468861969,
+  "iters_saltadas": 0,
+  "feats_no_finitas": 0,
+  "lr_etiquetadas": 3680,
+  "lr_ambiguas": 1502,
+  "L_cc": 3.0946817940473554,
+  "L_ic": -0.8677802869677543,
+  "L_ps": 0.0,
+  "seg": 25.696040630340576,
+  "mem_pico_GB": 2.766572032,
+  "val": {
+   "fusion": {
+    "original": {
+     "mAP": 32.401582536766306,
+     "n_consultas": 100,
+     "Rank-1": 53.0,
+     "Rank-5": 70.0,
+     "Rank-10": 78.0
+    },
+    "baja_resolucion": {
+     "mAP": 27.560686789447285,
+     "n_consultas": 100,
+     "Rank-1": 43.0,
+     "Rank-5": 66.0,
+     "Rank-10": 71.0
+    },
+    "caida_mAP": 4.840895747319021
+   },
+   "sin_fusion": {
+    "original": {
+     "mAP": 32.47020867369503,
+     "n_consultas": 100,
+     "Rank-1": 54.0,
+     "Rank-5": 72.0,
+     "Rank-10": 79.0
+    },
+    "baja_resolucion": {
+     "mAP": 27.99574446874634,
+     "n_consultas": 100,
+     "Rank-1": 43.0,
+     "Rank-5": 63.0,
+     "Rank-10": 75.0
+    },
+    "caida_mAP": 4.474464204948692
+   }
+  },
+  "val_clusters": {
+   "precision": 0.4011105386684985,
+   "recall": 0.5773255334926258,
+   "F": 0.4733499966223063,
+   "n_clusters": 80,
+   "frac_agrupadas": 0.8689910195456947
+  },
+  "val_puntaje": 29.981134663106793
+ },
+ {
+  "epoca": 19,
+  "n_clusters": 267,
+  "frac_hr_agrupadas": 0.8962634362736734,
+  "iters_saltadas": 0,
+  "feats_no_finitas": 0,
+  "lr_etiquetadas": 3716,
+  "lr_ambiguas": 1466,
+  "L_cc": 3.244223042726517,
+  "L_ic": -0.8622548687458038,
+  "L_ps": 0.0,
+  "seg": 25.7334086894989,
+  "mem_pico_GB": 2.768810496,
+  "val": {
+   "fusion": {
+    "original": {
+     "mAP": 29.32920584122387,
+     "n_consultas": 100,
+     "Rank-1": 48.0,
+     "Rank-5": 66.0,
+     "Rank-10": 74.0
+    },
+    "baja_resolucion": {
+     "mAP": 27.818898450642514,
+     "n_consultas": 100,
+     "Rank-1": 47.0,
+     "Rank-5": 63.0,
+     "Rank-10": 72.0
+    },
+    "caida_mAP": 1.5103073905813567
+   },
+   "sin_fusion": {
+    "original": {
+     "mAP": 30.44954868423777,
+     "n_consultas": 100,
+     "Rank-1": 51.0,
+     "Rank-5": 67.0,
+     "Rank-10": 79.0
+    },
+    "baja_resolucion": {
+     "mAP": 27.5146832241554,
+     "n_consultas": 100,
+     "Rank-1": 42.0,
+     "Rank-5": 69.0,
+     "Rank-10": 78.0
+    },
+    "caida_mAP": 2.934865460082367
+   }
+  },
+  "val_clusters": {
+   "precision": 0.21604211923726768,
+   "recall": 0.5899728104144352,
+   "F": 0.316269517015967,
+   "n_clusters": 76,
+   "frac_agrupadas": 0.8684627575277337
+  },
+  "val_puntaje": 28.574052145933194
+ },
+ {
+  "epoca": 20,
+  "n_clusters": 261,
+  "frac_hr_agrupadas": 0.9000170619348234,
+  "iters_saltadas": 0,
+  "feats_no_finitas": 0,
+  "lr_etiquetadas": 3731,
+  "lr_ambiguas": 1451,
+  "L_cc": 3.2237113177776338,
+  "L_ic": -0.8650031632184982,
+  "L_ps": 0.0,
+  "seg": 26.01890540122986,
+  "mem_pico_GB": 2.769501184,
+  "val": {
+   "fusion": {
+    "original": {
+     "mAP": 33.581520007955476,
+     "n_consultas": 100,
+     "Rank-1": 54.0,
+     "Rank-5": 71.0,
+     "Rank-10": 78.0
+    },
+    "baja_resolucion": {
+     "mAP": 30.256280801056263,
+     "n_consultas": 100,
+     "Rank-1": 49.0,
+     "Rank-5": 69.0,
+     "Rank-10": 79.0
+    },
+    "caida_mAP": 3.3252392068992123
+   },
+   "sin_fusion": {
+    "original": {
+     "mAP": 32.24360521854248,
+     "n_consultas": 100,
+     "Rank-1": 47.0,
+     "Rank-5": 72.0,
+     "Rank-10": 80.0
+    },
+    "baja_resolucion": {
+     "mAP": 28.96822144835368,
+     "n_consultas": 100,
+     "Rank-1": 46.0,
+     "Rank-5": 68.0,
+     "Rank-10": 75.0
+    },
+    "caida_mAP": 3.275383770188796
+   }
+  },
+  "val_clusters": {
+   "precision": 0.29462434593740744,
+   "recall": 0.49176073164702977,
+   "F": 0.3684827905540979,
+   "n_clusters": 77,
+   "frac_agrupadas": 0.873217115689382
+  },
+  "val_puntaje": 31.91890040450587
+ },
+ {
+  "epoca": 21,
+  "n_clusters": 260,
+  "frac_hr_agrupadas": 0.9078655519535915,
+  "iters_saltadas": 0,
+  "feats_no_finitas": 0,
+  "lr_etiquetadas": 3764,
+  "lr_ambiguas": 1418,
+  "L_cc": 3.013419303894043,
+  "L_ic": -0.8866176307201385,
+  "L_ps": 0.0,
+  "seg": 25.744739055633545,
+  "mem_pico_GB": 2.771478528,
+  "val": {
+   "fusion": {
+    "original": {
+     "mAP": 33.9338188758104,
+     "n_consultas": 100,
+     "Rank-1": 54.0,
+     "Rank-5": 77.0,
+     "Rank-10": 80.0
+    },
+    "baja_resolucion": {
+     "mAP": 31.34698455030982,
+     "n_consultas": 100,
+     "Rank-1": 51.0,
+     "Rank-5": 73.0,
+     "Rank-10": 82.0
+    },
+    "caida_mAP": 2.5868343255005826
+   },
+   "sin_fusion": {
+    "original": {
+     "mAP": 33.45196846079386,
+     "n_consultas": 100,
+     "Rank-1": 53.0,
+     "Rank-5": 76.0,
+     "Rank-10": 83.0
+    },
+    "baja_resolucion": {
+     "mAP": 29.90818142335627,
+     "n_consultas": 100,
+     "Rank-1": 46.0,
+     "Rank-5": 72.0,
+     "Rank-10": 81.0
+    },
+    "caida_mAP": 3.5437870374375855
+   }
+  },
+  "val_clusters": {
+   "precision": 0.31208796222369234,
+   "recall": 0.5636071516849304,
+   "F": 0.4017265933549647,
+   "n_clusters": 75,
+   "frac_agrupadas": 0.873217115689382
+  },
+  "val_puntaje": 32.640401713060115
+ },
+ {
+  "epoca": 22,
+  "n_clusters": 260,
+  "frac_hr_agrupadas": 0.9264630609111073,
+  "iters_saltadas": 0,
+  "feats_no_finitas": 0,
+  "lr_etiquetadas": 3841,
+  "lr_ambiguas": 1341,
+  "L_cc": 2.766154389977455,
+  "L_ic": -0.8955088099837303,
+  "L_ps": 0.0,
+  "seg": 25.884042024612427,
+  "mem_pico_GB": 2.775962624,
+  "val": {
+   "fusion": {
+    "original": {
+     "mAP": 33.47495729932971,
+     "n_consultas": 100,
+     "Rank-1": 53.0,
+     "Rank-5": 78.0,
+     "Rank-10": 81.0
+    },
+    "baja_resolucion": {
+     "mAP": 31.545466832408863,
+     "n_consultas": 100,
+     "Rank-1": 49.0,
+     "Rank-5": 76.0,
+     "Rank-10": 83.0
+    },
+    "caida_mAP": 1.9294904669208464
+   },
+   "sin_fusion": {
+    "original": {
+     "mAP": 33.66513252738477,
+     "n_consultas": 100,
+     "Rank-1": 55.00000000000001,
+     "Rank-5": 75.0,
+     "Rank-10": 82.0
+    },
+    "baja_resolucion": {
+     "mAP": 30.065249874024992,
+     "n_consultas": 100,
+     "Rank-1": 45.0,
+     "Rank-5": 76.0,
+     "Rank-10": 81.0
+    },
+    "caida_mAP": 3.599882653359778
+   }
+  },
+  "val_clusters": {
+   "precision": 0.29249440934453635,
+   "recall": 0.5549971162560765,
+   "F": 0.38309186299461134,
+   "n_clusters": 75,
+   "frac_agrupadas": 0.8674062334918119
+  },
+  "val_puntaje": 32.51021206586928
+ },
+ {
+  "epoca": 23,
+  "n_clusters": 263,
+  "frac_hr_agrupadas": 0.9413069442074731,
+  "iters_saltadas": 0,
+  "feats_no_finitas": 0,
+  "lr_etiquetadas": 3902,
+  "lr_ambiguas": 1280,
+  "L_cc": 2.6030906838178636,
+  "L_ic": -0.894640474319458,
+  "L_ps": 0.0,
+  "seg": 25.70245361328125,
+  "mem_pico_GB": 2.779804672,
+  "val": {
+   "fusion": {
+    "original": {
+     "mAP": 33.24315341544353,
+     "n_consultas": 100,
+     "Rank-1": 52.0,
+     "Rank-5": 72.0,
+     "Rank-10": 79.0
+    },
+    "baja_resolucion": {
+     "mAP": 29.779693027101594,
+     "n_consultas": 100,
+     "Rank-1": 42.0,
+     "Rank-5": 73.0,
+     "Rank-10": 77.0
+    },
+    "caida_mAP": 3.463460388341936
+   },
+   "sin_fusion": {
+    "original": {
+     "mAP": 33.49590255384269,
+     "n_consultas": 100,
+     "Rank-1": 56.99999999999999,
+     "Rank-5": 77.0,
+     "Rank-10": 86.0
+    },
+    "baja_resolucion": {
+     "mAP": 28.609759320036233,
+     "n_consultas": 100,
+     "Rank-1": 42.0,
+     "Rank-5": 73.0,
+     "Rank-10": 82.0
+    },
+    "caida_mAP": 4.886143233806457
+   }
+  },
+  "val_clusters": {
+   "precision": 0.3764173602189577,
+   "recall": 0.5552442943066656,
+   "F": 0.44866844207723033,
+   "n_clusters": 80,
+   "frac_agrupadas": 0.8769149498151083
+  },
+  "val_puntaje": 31.511423221272562
+ },
+ {
+  "epoca": 24,
+  "n_clusters": 261,
+  "frac_hr_agrupadas": 0.9404538474663027,
+  "iters_saltadas": 0,
+  "feats_no_finitas": 0,
+  "lr_etiquetadas": 3899,
+  "lr_ambiguas": 1283,
+  "L_cc": 2.4794484144449234,
+  "L_ic": -0.8920542043447495,
+  "L_ps": 0.0,
+  "seg": 25.73029398918152,
+  "mem_pico_GB": 2.779506688,
+  "val": {
+   "fusion": {
+    "original": {
+     "mAP": 33.51047001654167,
+     "n_consultas": 100,
+     "Rank-1": 56.00000000000001,
+     "Rank-5": 74.0,
+     "Rank-10": 80.0
+    },
+    "baja_resolucion": {
+     "mAP": 29.537812969790807,
+     "n_consultas": 100,
+     "Rank-1": 39.0,
+     "Rank-5": 71.0,
+     "Rank-10": 78.0
+    },
+    "caida_mAP": 3.972657046750861
+   },
+   "sin_fusion": {
+    "original": {
+     "mAP": 33.99682407487065,
+     "n_consultas": 100,
+     "Rank-1": 56.99999999999999,
+     "Rank-5": 77.0,
+     "Rank-10": 83.0
+    },
+    "baja_resolucion": {
+     "mAP": 29.159485830605703,
+     "n_consultas": 100,
+     "Rank-1": 42.0,
+     "Rank-5": 72.0,
+     "Rank-10": 85.0
+    },
+    "caida_mAP": 4.837338244264949
+   }
+  },
+  "val_clusters": {
+   "precision": 0.3557986166961557,
+   "recall": 0.5467578479031062,
+   "F": 0.43107704300376776,
+   "n_clusters": 81,
+   "frac_agrupadas": 0.8700475435816165
+  },
+  "val_puntaje": 31.524141493166237
+ },
+ {
+  "epoca": 25,
+  "n_clusters": 260,
+  "frac_hr_agrupadas": 0.94284251834158,
+  "iters_saltadas": 0,
+  "feats_no_finitas": 0,
+  "lr_etiquetadas": 3909,
+  "lr_ambiguas": 1273,
+  "L_cc": 2.44943660736084,
+  "L_ic": -0.8899539387226105,
+  "L_ps": 0.0,
+  "seg": 25.763036012649536,
+  "mem_pico_GB": 2.780041216,
+  "val": {
+   "fusion": {
+    "original": {
+     "mAP": 33.0244212149139,
+     "n_consultas": 100,
+     "Rank-1": 54.0,
+     "Rank-5": 76.0,
+     "Rank-10": 83.0
+    },
+    "baja_resolucion": {
+     "mAP": 30.060564284915635,
+     "n_consultas": 100,
+     "Rank-1": 45.0,
+     "Rank-5": 75.0,
+     "Rank-10": 82.0
+    },
+    "caida_mAP": 2.963856929998265
+   },
+   "sin_fusion": {
+    "original": {
+     "mAP": 33.877375141498504,
+     "n_consultas": 100,
+     "Rank-1": 60.0,
+     "Rank-5": 79.0,
+     "Rank-10": 84.0
+    },
+    "baja_resolucion": {
+     "mAP": 29.550445824188255,
+     "n_consultas": 100,
+     "Rank-1": 42.0,
+     "Rank-5": 78.0,
+     "Rank-10": 87.0
+    },
+    "caida_mAP": 4.326929317310249
+   }
+  },
+  "val_clusters": {
+   "precision": 0.3346589926635872,
+   "recall": 0.5581280382302052,
+   "F": 0.4184258072486372,
+   "n_clusters": 80,
+   "frac_agrupadas": 0.8647649234020074
+  },
+  "val_puntaje": 31.542492749914768
+ },
+ {
+  "epoca": 26,
+  "n_clusters": 268,
+  "frac_hr_agrupadas": 0.9457430472615594,
+  "iters_saltadas": 0,
+  "feats_no_finitas": 0,
+  "lr_etiquetadas": 3921,
+  "lr_ambiguas": 1261,
+  "L_cc": 2.44122900724411,
+  "L_ic": -0.8874692666530609,
+  "L_ps": 0.0,
+  "seg": 25.727213382720947,
+  "mem_pico_GB": 2.78116864,
+  "val": {
+   "fusion": {
+    "original": {
+     "mAP": 33.48545493029748,
+     "n_consultas": 100,
+     "Rank-1": 56.99999999999999,
+     "Rank-5": 75.0,
+     "Rank-10": 80.0
+    },
+    "baja_resolucion": {
+     "mAP": 30.00489683367376,
+     "n_consultas": 100,
+     "Rank-1": 44.0,
+     "Rank-5": 77.0,
+     "Rank-10": 82.0
+    },
+    "caida_mAP": 3.4805580966237173
+   },
+   "sin_fusion": {
+    "original": {
+     "mAP": 34.753176177970566,
+     "n_consultas": 100,
+     "Rank-1": 60.0,
+     "Rank-5": 77.0,
+     "Rank-10": 83.0
+    },
+    "baja_resolucion": {
+     "mAP": 30.883810789225347,
+     "n_consultas": 100,
+     "Rank-1": 50.0,
+     "Rank-5": 76.0,
+     "Rank-10": 85.0
+    },
+    "caida_mAP": 3.8693653887452193
+   }
+  },
+  "val_clusters": {
+   "precision": 0.32652210175145957,
+   "recall": 0.6128779764356925,
+   "F": 0.4260553296294175,
+   "n_clusters": 75,
+   "frac_agrupadas": 0.8795562599049128
+  },
+  "val_puntaje": 31.74517588198562
+ },
+ {
+  "epoca": 27,
+  "n_clusters": 269,
+  "frac_hr_agrupadas": 0.9513734857532844,
+  "iters_saltadas": 0,
+  "feats_no_finitas": 0,
+  "lr_etiquetadas": 3944,
+  "lr_ambiguas": 1238,
+  "L_cc": 2.3698037868738173,
+  "L_ic": -0.8852749171853066,
+  "L_ps": 0.0,
+  "seg": 25.744563341140747,
+  "mem_pico_GB": 2.782601216,
+  "val": {
+   "fusion": {
+    "original": {
+     "mAP": 31.800152298244367,
+     "n_consultas": 100,
+     "Rank-1": 57.99999999999999,
+     "Rank-5": 74.0,
+     "Rank-10": 79.0
+    },
+    "baja_resolucion": {
+     "mAP": 28.32090027688402,
+     "n_consultas": 100,
+     "Rank-1": 41.0,
+     "Rank-5": 71.0,
+     "Rank-10": 80.0
+    },
+    "caida_mAP": 3.4792520213603453
+   },
+   "sin_fusion": {
+    "original": {
+     "mAP": 34.56782571155677,
+     "n_consultas": 100,
+     "Rank-1": 57.99999999999999,
+     "Rank-5": 77.0,
+     "Rank-10": 83.0
+    },
+    "baja_resolucion": {
+     "mAP": 30.701679861725324,
+     "n_consultas": 100,
+     "Rank-1": 48.0,
+     "Rank-5": 75.0,
+     "Rank-10": 84.0
+    },
+    "caida_mAP": 3.8661458498314474
+   }
+  },
+  "val_clusters": {
+   "precision": 0.3547184755515177,
+   "recall": 0.6272966960533904,
+   "F": 0.4531777800925581,
+   "n_clusters": 77,
+   "frac_agrupadas": 0.8800845219228738
+  },
+  "val_puntaje": 30.060526287564194
+ },
+ {
+  "epoca": 28,
+  "n_clusters": 268,
+  "frac_hr_agrupadas": 0.9535915372803276,
+  "iters_saltadas": 0,
+  "feats_no_finitas": 0,
+  "lr_etiquetadas": 3953,
+  "lr_ambiguas": 1229,
+  "L_cc": 2.288068982362747,
+  "L_ic": -0.8828945231437683,
+  "L_ps": 0.0,
+  "seg": 25.710862636566162,
+  "mem_pico_GB": 2.783312896,
+  "val": {
+   "fusion": {
+    "original": {
+     "mAP": 31.065602620406217,
+     "n_consultas": 100,
+     "Rank-1": 53.0,
+     "Rank-5": 74.0,
+     "Rank-10": 81.0
+    },
+    "baja_resolucion": {
+     "mAP": 28.007940880041264,
+     "n_consultas": 100,
+     "Rank-1": 44.0,
+     "Rank-5": 68.0,
+     "Rank-10": 79.0
+    },
+    "caida_mAP": 3.057661740364953
+   },
+   "sin_fusion": {
+    "original": {
+     "mAP": 33.48460640504434,
+     "n_consultas": 100,
+     "Rank-1": 56.99999999999999,
+     "Rank-5": 78.0,
+     "Rank-10": 83.0
+    },
+    "baja_resolucion": {
+     "mAP": 29.832496843072455,
+     "n_consultas": 100,
+     "Rank-1": 44.0,
+     "Rank-5": 77.0,
+     "Rank-10": 84.0
+    },
+    "caida_mAP": 3.6521095619718835
+   }
+  },
+  "val_clusters": {
+   "precision": 0.2967661985129234,
+   "recall": 0.6215292082063113,
+   "F": 0.40172009798700603,
+   "n_clusters": 63,
+   "frac_agrupadas": 0.879027997886952
+  },
+  "val_puntaje": 29.536771750223743
+ },
+ {
+  "epoca": 29,
+  "n_clusters": 265,
+  "frac_hr_agrupadas": 0.956150827503839,
+  "iters_saltadas": 0,
+  "feats_no_finitas": 0,
+  "lr_etiquetadas": 3964,
+  "lr_ambiguas": 1218,
+  "L_cc": 2.281620983481407,
+  "L_ic": -0.8805645069479943,
+  "L_ps": 0.0,
+  "seg": 25.921053171157837,
+  "mem_pico_GB": 2.783619584,
+  "val": {
+   "fusion": {
+    "original": {
+     "mAP": 30.067670549565346,
+     "n_consultas": 100,
+     "Rank-1": 47.0,
+     "Rank-5": 75.0,
+     "Rank-10": 80.0
+    },
+    "baja_resolucion": {
+     "mAP": 27.042164062725043,
+     "n_consultas": 100,
+     "Rank-1": 40.0,
+     "Rank-5": 73.0,
+     "Rank-10": 78.0
+    },
+    "caida_mAP": 3.025506486840303
+   },
+   "sin_fusion": {
+    "original": {
+     "mAP": 33.02021849326595,
+     "n_consultas": 100,
+     "Rank-1": 56.99999999999999,
+     "Rank-5": 78.0,
+     "Rank-10": 83.0
+    },
+    "baja_resolucion": {
+     "mAP": 29.3779619682107,
+     "n_consultas": 100,
+     "Rank-1": 45.0,
+     "Rank-5": 74.0,
+     "Rank-10": 82.0
+    },
+    "caida_mAP": 3.6422565250552523
+   }
+  },
+  "val_clusters": {
+   "precision": 0.31130638788277903,
+   "recall": 0.6231770618769054,
+   "F": 0.41520050503664263,
+   "n_clusters": 69,
+   "frac_agrupadas": 0.8647649234020074
+  },
+  "val_puntaje": 28.554917306145192
+ },
+ {
+  "epoca": 30,
+  "n_clusters": 265,
+  "frac_hr_agrupadas": 0.9624637433885003,
+  "iters_saltadas": 0,
+  "feats_no_finitas": 0,
+  "lr_etiquetadas": 3990,
+  "lr_ambiguas": 1192,
+  "L_cc": 2.242326372861862,
+  "L_ic": -0.8778792178630829,
+  "L_ps": 0.0,
+  "seg": 25.729833126068115,
+  "mem_pico_GB": 2.785033728,
+  "val": {
+   "fusion": {
+    "original": {
+     "mAP": 30.21523553358384,
+     "n_consultas": 100,
+     "Rank-1": 48.0,
+     "Rank-5": 75.0,
+     "Rank-10": 79.0
+    },
+    "baja_resolucion": {
+     "mAP": 27.722339743002518,
+     "n_consultas": 100,
+     "Rank-1": 41.0,
+     "Rank-5": 74.0,
+     "Rank-10": 78.0
+    },
+    "caida_mAP": 2.492895790581322
+   },
+   "sin_fusion": {
+    "original": {
+     "mAP": 33.49268998089198,
+     "n_consultas": 100,
+     "Rank-1": 59.0,
+     "Rank-5": 76.0,
+     "Rank-10": 82.0
+    },
+    "baja_resolucion": {
+     "mAP": 30.773986782780305,
+     "n_consultas": 100,
+     "Rank-1": 51.0,
+     "Rank-5": 72.0,
+     "Rank-10": 85.0
+    },
+    "caida_mAP": 2.718703198111676
+   }
+  },
+  "val_clusters": {
+   "precision": 0.3362757874548182,
+   "recall": 0.5634011699761061,
+   "F": 0.42116933310749427,
+   "n_clusters": 76,
+   "frac_agrupadas": 0.8637083993660856
+  },
+  "val_puntaje": 28.96878763829318
+ },
+ {
+  "epoca": 31,
+  "n_clusters": 263,
+  "frac_hr_agrupadas": 0.9626343627367343,
+  "iters_saltadas": 0,
+  "feats_no_finitas": 0,
+  "lr_etiquetadas": 3991,
+  "lr_ambiguas": 1191,
+  "L_cc": 2.158967894911766,
+  "L_ic": -0.8763067471981049,
+  "L_ps": 0.0,
+  "seg": 25.929879426956177,
+  "mem_pico_GB": 2.785067008,
+  "val": {
+   "fusion": {
+    "original": {
+     "mAP": 29.319113642362844,
+     "n_consultas": 100,
+     "Rank-1": 44.0,
+     "Rank-5": 73.0,
+     "Rank-10": 79.0
+    },
+    "baja_resolucion": {
+     "mAP": 26.801013413170427,
+     "n_consultas": 100,
+     "Rank-1": 39.0,
+     "Rank-5": 73.0,
+     "Rank-10": 80.0
+    },
+    "caida_mAP": 2.5181002291924166
+   },
+   "sin_fusion": {
+    "original": {
+     "mAP": 33.058363933686195,
+     "n_consultas": 100,
+     "Rank-1": 52.0,
+     "Rank-5": 75.0,
+     "Rank-10": 82.0
+    },
+    "baja_resolucion": {
+     "mAP": 29.15647015663297,
+     "n_consultas": 100,
+     "Rank-1": 45.0,
+     "Rank-5": 76.0,
+     "Rank-10": 84.0
+    },
+    "caida_mAP": 3.9018937770532247
+   }
+  },
+  "val_clusters": {
+   "precision": 0.3182821814970192,
+   "recall": 0.5938452665403312,
+   "F": 0.4144385026737967,
+   "n_clusters": 75,
+   "frac_agrupadas": 0.8711040676175383
+  },
+  "val_puntaje": 28.060063527766637
+ },
+ {
+  "epoca": 32,
+  "n_clusters": 263,
+  "frac_hr_agrupadas": 0.967752943183757,
+  "iters_saltadas": 0,
+  "feats_no_finitas": 0,
+  "lr_etiquetadas": 4012,
+  "lr_ambiguas": 1170,
+  "L_cc": 2.1261541855335238,
+  "L_ic": -0.8752283445000648,
+  "L_ps": 0.0,
+  "seg": 25.721992015838623,
+  "mem_pico_GB": 2.786231296,
+  "val": {
+   "fusion": {
+    "original": {
+     "mAP": 29.711475887262374,
+     "n_consultas": 100,
+     "Rank-1": 50.0,
+     "Rank-5": 71.0,
+     "Rank-10": 79.0
+    },
+    "baja_resolucion": {
+     "mAP": 27.100757546207454,
+     "n_consultas": 100,
+     "Rank-1": 41.0,
+     "Rank-5": 69.0,
+     "Rank-10": 77.0
+    },
+    "caida_mAP": 2.6107183410549197
+   },
+   "sin_fusion": {
+    "original": {
+     "mAP": 33.20869808463888,
+     "n_consultas": 100,
+     "Rank-1": 57.99999999999999,
+     "Rank-5": 77.0,
+     "Rank-10": 84.0
+    },
+    "baja_resolucion": {
+     "mAP": 30.054506074007282,
+     "n_consultas": 100,
+     "Rank-1": 52.0,
+     "Rank-5": 75.0,
+     "Rank-10": 82.0
+    },
+    "caida_mAP": 3.1541920106316006
+   }
+  },
+  "val_clusters": {
+   "precision": 0.31569851839904145,
+   "recall": 0.5644310785202274,
+   "F": 0.40491776631743825,
+   "n_clusters": 72,
+   "frac_agrupadas": 0.8563127311146329
+  },
+  "val_puntaje": 28.406116716734914
+ },
+ {
+  "epoca": 33,
+  "n_clusters": 261,
+  "frac_hr_agrupadas": 0.9691178979696298,
+  "iters_saltadas": 0,
+  "feats_no_finitas": 0,
+  "lr_etiquetadas": 4018,
+  "lr_ambiguas": 1164,
+  "L_cc": 2.158431742787361,
+  "L_ic": -0.8733238309621811,
+  "L_ps": 0.0,
+  "seg": 25.708772659301758,
+  "mem_pico_GB": 2.786699264,
+  "val": {
+   "fusion": {
+    "original": {
+     "mAP": 29.381057874048857,
+     "n_consultas": 100,
+     "Rank-1": 47.0,
+     "Rank-5": 75.0,
+     "Rank-10": 79.0
+    },
+    "baja_resolucion": {
+     "mAP": 26.67171082065558,
+     "n_consultas": 100,
+     "Rank-1": 39.0,
+     "Rank-5": 71.0,
+     "Rank-10": 78.0
+    },
+    "caida_mAP": 2.7093470533932766
+   },
+   "sin_fusion": {
+    "original": {
+     "mAP": 33.01726874227979,
+     "n_consultas": 100,
+     "Rank-1": 52.0,
+     "Rank-5": 77.0,
+     "Rank-10": 79.0
+    },
+    "baja_resolucion": {
+     "mAP": 29.925455105719738,
+     "n_consultas": 100,
+     "Rank-1": 44.0,
+     "Rank-5": 71.0,
+     "Rank-10": 76.0
+    },
+    "caida_mAP": 3.091813636560051
+   }
+  },
+  "val_clusters": {
+   "precision": 0.3424509497850676,
+   "recall": 0.5874598335667792,
+   "F": 0.432678449518319,
+   "n_clusters": 70,
+   "frac_agrupadas": 0.8605388272583201
+  },
+  "val_puntaje": 28.02638434735222
+ },
+ {
+  "epoca": 34,
+  "n_clusters": 263,
+  "frac_hr_agrupadas": 0.9682648012284593,
+  "iters_saltadas": 0,
+  "feats_no_finitas": 0,
+  "lr_etiquetadas": 4014,
+  "lr_ambiguas": 1168,
+  "L_cc": 2.0828622168302537,
+  "L_ic": -0.8718760040402412,
+  "L_ps": 0.0,
+  "seg": 25.706688404083252,
+  "mem_pico_GB": 2.786444288,
+  "val": {
+   "fusion": {
+    "original": {
+     "mAP": 30.931819934966697,
+     "n_consultas": 100,
+     "Rank-1": 49.0,
+     "Rank-5": 74.0,
+     "Rank-10": 82.0
+    },
+    "baja_resolucion": {
+     "mAP": 26.85887062915335,
+     "n_consultas": 100,
+     "Rank-1": 39.0,
+     "Rank-5": 63.0,
+     "Rank-10": 77.0
+    },
+    "caida_mAP": 4.072949305813346
+   },
+   "sin_fusion": {
+    "original": {
+     "mAP": 34.01529203097452,
+     "n_consultas": 100,
+     "Rank-1": 53.0,
+     "Rank-5": 76.0,
+     "Rank-10": 81.0
+    },
+    "baja_resolucion": {
+     "mAP": 28.853185653413327,
+     "n_consultas": 100,
+     "Rank-1": 43.0,
+     "Rank-5": 68.0,
+     "Rank-10": 78.0
+    },
+    "caida_mAP": 5.162106377561194
+   }
+  },
+  "val_clusters": {
+   "precision": 0.32446773083497993,
+   "recall": 0.6020845348933015,
+   "F": 0.4216858779231646,
+   "n_clusters": 74,
+   "frac_agrupadas": 0.8663497094558901
+  },
+  "val_puntaje": 28.895345282060024
+ },
+ {
+  "epoca": 35,
+  "n_clusters": 266,
+  "frac_hr_agrupadas": 0.9728715236307798,
+  "iters_saltadas": 0,
+  "feats_no_finitas": 0,
+  "lr_etiquetadas": 4033,
+  "lr_ambiguas": 1149,
+  "L_cc": 2.1042339795827867,
+  "L_ic": -0.873028284907341,
+  "L_ps": 0.0,
+  "seg": 25.761279821395874,
+  "mem_pico_GB": 2.787822592,
+  "val": {
+   "fusion": {
+    "original": {
+     "mAP": 29.97431454664069,
+     "n_consultas": 100,
+     "Rank-1": 47.0,
+     "Rank-5": 76.0,
+     "Rank-10": 82.0
+    },
+    "baja_resolucion": {
+     "mAP": 26.683395845205627,
+     "n_consultas": 100,
+     "Rank-1": 38.0,
+     "Rank-5": 69.0,
+     "Rank-10": 75.0
+    },
+    "caida_mAP": 3.2909187014350643
+   },
+   "sin_fusion": {
+    "original": {
+     "mAP": 32.72420582563823,
+     "n_consultas": 100,
+     "Rank-1": 55.00000000000001,
+     "Rank-5": 75.0,
+     "Rank-10": 82.0
+    },
+    "baja_resolucion": {
+     "mAP": 29.24829728480639,
+     "n_consultas": 100,
+     "Rank-1": 45.0,
+     "Rank-5": 73.0,
+     "Rank-10": 77.0
+    },
+    "caida_mAP": 3.4759085408318384
+   }
+  },
+  "val_clusters": {
+   "precision": 0.31017443184405885,
+   "recall": 0.5611353711790393,
+   "F": 0.3995131108112865,
+   "n_clusters": 72,
+   "frac_agrupadas": 0.8621236133122029
+  },
+  "val_puntaje": 28.32885519592316
+ },
+ {
+  "epoca": 36,
+  "n_clusters": 257,
+  "frac_hr_agrupadas": 0.9727009042825456,
+  "iters_saltadas": 0,
+  "feats_no_finitas": 0,
+  "lr_etiquetadas": 4032,
+  "lr_ambiguas": 1150,
+  "L_cc": 2.1023336005210878,
+  "L_ic": -0.8717148494720459,
+  "L_ps": 0.0,
+  "seg": 25.869811058044434,
+  "mem_pico_GB": 2.787262976,
+  "val": {
+   "fusion": {
+    "original": {
+     "mAP": 29.374334593428014,
+     "n_consultas": 100,
+     "Rank-1": 51.0,
+     "Rank-5": 73.0,
+     "Rank-10": 81.0
+    },
+    "baja_resolucion": {
+     "mAP": 25.632905169710003,
+     "n_consultas": 100,
+     "Rank-1": 40.0,
+     "Rank-5": 68.0,
+     "Rank-10": 80.0
+    },
+    "caida_mAP": 3.74142942371801
+   },
+   "sin_fusion": {
+    "original": {
+     "mAP": 34.13781903625549,
+     "n_consultas": 100,
+     "Rank-1": 57.99999999999999,
+     "Rank-5": 77.0,
+     "Rank-10": 81.0
+    },
+    "baja_resolucion": {
+     "mAP": 29.678169378806114,
+     "n_consultas": 100,
+     "Rank-1": 48.0,
+     "Rank-5": 76.0,
+     "Rank-10": 81.0
+    },
+    "caida_mAP": 4.459649657449379
+   }
+  },
+  "val_clusters": {
+   "precision": 0.31538526996553634,
+   "recall": 0.6107357666639203,
+   "F": 0.4159652076318744,
+   "n_clusters": 73,
+   "frac_agrupadas": 0.8647649234020074
+  },
+  "val_puntaje": 27.50361988156901
+ },
+ {
+  "epoca": 37,
+  "n_clusters": 262,
+  "frac_hr_agrupadas": 0.9752601945060569,
+  "iters_saltadas": 0,
+  "feats_no_finitas": 0,
+  "lr_etiquetadas": 4043,
+  "lr_ambiguas": 1139,
+  "L_cc": 2.0732111495733263,
+  "L_ic": -0.8704828783869744,
+  "L_ps": 0.0,
+  "seg": 25.71672224998474,
+  "mem_pico_GB": 2.788069888,
+  "val": {
+   "fusion": {
+    "original": {
+     "mAP": 30.43871839324932,
+     "n_consultas": 100,
+     "Rank-1": 55.00000000000001,
+     "Rank-5": 77.0,
+     "Rank-10": 80.0
+    },
+    "baja_resolucion": {
+     "mAP": 26.56328197073121,
+     "n_consultas": 100,
+     "Rank-1": 45.0,
+     "Rank-5": 72.0,
+     "Rank-10": 77.0
+    },
+    "caida_mAP": 3.87543642251811
+   },
+   "sin_fusion": {
+    "original": {
+     "mAP": 34.42580043912906,
+     "n_consultas": 100,
+     "Rank-1": 56.99999999999999,
+     "Rank-5": 77.0,
+     "Rank-10": 81.0
+    },
+    "baja_resolucion": {
+     "mAP": 29.695512747304942,
+     "n_consultas": 100,
+     "Rank-1": 45.0,
+     "Rank-5": 74.0,
+     "Rank-10": 78.0
+    },
+    "caida_mAP": 4.73028769182412
+   }
+  },
+  "val_clusters": {
+   "precision": 0.28536323462602736,
+   "recall": 0.5692922468484799,
+   "F": 0.3801650618982118,
+   "n_clusters": 71,
+   "frac_agrupadas": 0.8647649234020074
+  },
+  "val_puntaje": 28.501000181990264
+ },
+ {
+  "epoca": 38,
+  "n_clusters": 267,
+  "frac_hr_agrupadas": 0.9781607234260365,
+  "iters_saltadas": 0,
+  "feats_no_finitas": 0,
+  "lr_etiquetadas": 4055,
+  "lr_ambiguas": 1127,
+  "L_cc": 2.043115770816803,
+  "L_ic": -0.8732563871145248,
+  "L_ps": 0.0,
+  "seg": 25.71720576286316,
+  "mem_pico_GB": 2.789175808,
+  "val": {
+   "fusion": {
+    "original": {
+     "mAP": 29.14409431576218,
+     "n_consultas": 100,
+     "Rank-1": 50.0,
+     "Rank-5": 75.0,
+     "Rank-10": 79.0
+    },
+    "baja_resolucion": {
+     "mAP": 26.712124589960755,
+     "n_consultas": 100,
+     "Rank-1": 43.0,
+     "Rank-5": 70.0,
+     "Rank-10": 77.0
+    },
+    "caida_mAP": 2.4319697258014266
+   },
+   "sin_fusion": {
+    "original": {
+     "mAP": 33.66105442041752,
+     "n_consultas": 100,
+     "Rank-1": 59.0,
+     "Rank-5": 78.0,
+     "Rank-10": 82.0
+    },
+    "baja_resolucion": {
+     "mAP": 29.422286585083558,
+     "n_consultas": 100,
+     "Rank-1": 46.0,
+     "Rank-5": 74.0,
+     "Rank-10": 79.0
+    },
+    "caida_mAP": 4.238767835333963
+   }
+  },
+  "val_clusters": {
+   "precision": 0.3630089533148582,
+   "recall": 0.561217763862569,
+   "F": 0.44085951910941396,
+   "n_clusters": 81,
+   "frac_agrupadas": 0.8652931854199684
+  },
+  "val_puntaje": 27.92810945286147
+ },
+ {
+  "epoca": 39,
+  "n_clusters": 264,
+  "frac_hr_agrupadas": 0.9815731103907183,
+  "iters_saltadas": 0,
+  "feats_no_finitas": 0,
+  "lr_etiquetadas": 4069,
+  "lr_ambiguas": 1113,
+  "L_cc": 1.9991616702079773,
+  "L_ic": -0.8739948424696923,
+  "L_ps": 0.0,
+  "seg": 25.72738528251648,
+  "mem_pico_GB": 2.789855744,
+  "val": {
+   "fusion": {
+    "original": {
+     "mAP": 29.194987492765108,
+     "n_consultas": 100,
+     "Rank-1": 47.0,
+     "Rank-5": 75.0,
+     "Rank-10": 81.0
+    },
+    "baja_resolucion": {
+     "mAP": 26.07059148987719,
+     "n_consultas": 100,
+     "Rank-1": 39.0,
+     "Rank-5": 72.0,
+     "Rank-10": 78.0
+    },
+    "caida_mAP": 3.1243960028879165
+   },
+   "sin_fusion": {
+    "original": {
+     "mAP": 34.150709023651636,
+     "n_consultas": 100,
+     "Rank-1": 56.99999999999999,
+     "Rank-5": 77.0,
+     "Rank-10": 85.0
+    },
+    "baja_resolucion": {
+     "mAP": 29.6934250533528,
+     "n_consultas": 100,
+     "Rank-1": 46.0,
+     "Rank-5": 74.0,
+     "Rank-10": 80.0
+    },
+    "caida_mAP": 4.457283970298835
+   }
+  },
+  "val_clusters": {
+   "precision": 0.28439713249265847,
+   "recall": 0.5425970173848562,
+   "F": 0.37319015102144903,
+   "n_clusters": 71,
+   "frac_agrupadas": 0.8716323296354992
+  },
+  "val_puntaje": 27.632789491321148
+ },
+ {
+  "epoca": 40,
+  "n_clusters": 264,
+  "frac_hr_agrupadas": 0.9805493943013137,
+  "iters_saltadas": 0,
+  "feats_no_finitas": 0,
+  "lr_etiquetadas": 4065,
+  "lr_ambiguas": 1117,
+  "L_cc": 2.0065221375226976,
+  "L_ic": -0.8723646003007889,
+  "L_ps": 0.0,
+  "seg": 25.74150323867798,
+  "mem_pico_GB": 2.789700096,
+  "val": {
+   "fusion": {
+    "original": {
+     "mAP": 29.135782460351102,
+     "n_consultas": 100,
+     "Rank-1": 48.0,
+     "Rank-5": 77.0,
+     "Rank-10": 79.0
+    },
+    "baja_resolucion": {
+     "mAP": 26.6936931207233,
+     "n_consultas": 100,
+     "Rank-1": 42.0,
+     "Rank-5": 74.0,
+     "Rank-10": 80.0
+    },
+    "caida_mAP": 2.4420893396278025
+   },
+   "sin_fusion": {
+    "original": {
+     "mAP": 33.483536947811174,
+     "n_consultas": 100,
+     "Rank-1": 61.0,
+     "Rank-5": 75.0,
+     "Rank-10": 80.0
+    },
+    "baja_resolucion": {
+     "mAP": 28.836329205011317,
+     "n_consultas": 100,
+     "Rank-1": 45.0,
+     "Rank-5": 70.0,
+     "Rank-10": 78.0
+    },
+    "caida_mAP": 4.647207742799857
+   }
+  },
+  "val_clusters": {
+   "precision": 0.3059044515355195,
+   "recall": 0.5568509516354948,
+   "F": 0.39488175749696913,
+   "n_clusters": 79,
+   "frac_agrupadas": 0.8716323296354992
+  },
+  "val_puntaje": 27.914737790537202
+ }
+]

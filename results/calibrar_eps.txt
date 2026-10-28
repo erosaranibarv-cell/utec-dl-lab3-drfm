@@ -1,0 +1,42 @@
+1893 imagenes de validacion, 100 personas reales
+cos. medio entre imagenes distintas (sin centrar): 0.716
+
+(a) coseno sin centrar, eps fijo
+configuracion               clusters  agrupadas  precision   recall      F
+eps=0.02                   (ningun cluster)
+eps=0.04                   (ningun cluster)
+eps=0.06                           3       0.01       0.89     0.00   0.00
+eps=0.08                           8       0.06       0.19     0.02   0.03
+eps=0.1                            9       0.19       0.03     0.06   0.05
+eps=0.12                           5       0.46       0.02     0.26   0.03
+eps=0.14                           6       0.67       0.02     0.49   0.03
+
+(b) coseno CENTRADO, eps fijo
+configuracion               clusters  agrupadas  precision   recall      F
+centrado eps=0.3                   6       0.03       0.37     0.01   0.02
+centrado eps=0.4                  23       0.16       0.09     0.05   0.06
+centrado eps=0.5                  14       0.60       0.02     0.40   0.04
+centrado eps=0.6                   1       0.95       0.01     0.91   0.03
+centrado eps=0.7                   1       1.00       0.01     1.00   0.03
+centrado eps=0.8                   1       1.00       0.01     1.00   0.03
+
+(c) centrado + eps ADAPTATIVO (percentil de la distancia al 4o vecino)
+configuracion               clusters  agrupadas  precision   recall      F
+centrado percentil=0.2            20       0.45       0.03     0.26   0.05
+centrado percentil=0.3            14       0.58       0.02     0.39   0.04
+centrado percentil=0.4            10       0.70       0.02     0.53   0.03
+centrado percentil=0.5             3       0.77       0.01     0.65   0.03
+centrado percentil=0.6             2       0.85       0.01     0.75   0.03
+centrado percentil=0.7             1       0.91       0.01     0.84   0.03
+centrado percentil=0.8             1       0.95       0.01     0.92   0.03
+
+(d) distancia JACCARD de k-reciprocos (k1=30, k2=6)
+configuracion               clusters  agrupadas  precision   recall      F
+jaccard eps=0.3                   19       0.08       0.76     0.03   0.05
+jaccard eps=0.4                   29       0.14       0.53     0.05   0.08
+jaccard eps=0.5                   53       0.28       0.31     0.08   0.13
+jaccard eps=0.55                  56       0.36       0.22     0.11   0.14
+jaccard eps=0.6                   54       0.49       0.05     0.17   0.07
+jaccard eps=0.65                  42       0.68       0.02     0.35   0.04
+jaccard eps=0.7                   16       0.78       0.02     0.60   0.03
+jaccard eps=0.8                    1       0.98       0.01     0.97   0.03

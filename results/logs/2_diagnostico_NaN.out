@@ -1,0 +1,13 @@
+checkpoint de la epoca 40
+parametros con NaN/inf: ninguno
+  |crff.F1.weight|: max=0.024 media=0.0000
+  |crff.F2.weight|: max=0.025 media=0.0000
+  |crff.F3.weight|: max=0.052 media=0.0077
+
+caracteristicas crudas: max E_h=80.6  max E_l=78.5  norma media=64.9
+|F1(f)| max=445.1 | |F2(f)| max=437.9 | |F1*F2| max=38237.9
+elementos del producto que se desbordan en fp16 (>65504): 0 de 1228800
+  inf tras convertir a fp16: 0
+  NaN en softmax tras emular el desborde fp16: 0
+  NaN en softmax en fp32: 0
+salida de CRFF en fp32: finita=True, |max|=208.5

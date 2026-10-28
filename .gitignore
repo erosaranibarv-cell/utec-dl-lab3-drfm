@@ -1,0 +1,17 @@
+# --- Datos: Market-1501 es "solo investigacion, no distribuir" -> NO se suben ---
+data/
+cache/
+*.h5
+*.zip
+# --- Pesos y salidas pesadas (viven en Khipu: ~/lab3/ckpts) ---
+ckpts/
+*.pt
+# --- Material con derechos de autor o del curso ---
+*.pdf
+*.docx
+# --- Generados ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+/logs/
+results/humo_*

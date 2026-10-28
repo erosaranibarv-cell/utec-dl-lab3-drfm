@@ -1,0 +1,85 @@
+name, memory.total [MiB], driver_version
+NVIDIA A100-PCIE-40GB, 40960 MiB, 610.57.04
+dispositivo: cuda | modo=dev | CRFF=True | L_ps=True | tag=drfm_v2
+[datos:dev] 11043 imagenes | HR=5861 LR=5182 | camaras LR=[1, 2, 5]
+[ep 01/40] K=114 agrup=0.15 LRetq=610 Lcc=4.741 Lic=-0.799 Lps=0.000 saltadas=0 nofinitas=0 mem=2.6GB
+      val[fusion]: orig mAP 12.8 R1 26.0 R5 40.0 R10 45.0 | LR mAP 11.0 R1 18.0 R5 33.0 R10 42.0 | caida 1.8 | F-clusters(val)=0.17 | 28s
+[ep 02/40] K=199 agrup=0.59 LRetq=2431 Lcc=6.344 Lic=-0.853 Lps=0.000 saltadas=0 nofinitas=0 mem=2.7GB
+      val[fusion]: orig mAP 13.7 R1 23.0 R5 43.0 R10 53.0 | LR mAP 10.9 R1 17.0 R5 36.0 R10 45.0 | caida 2.7 | F-clusters(val)=0.19 | 27s
+[ep 03/40] K=233 agrup=0.66 LRetq=2756 Lcc=5.677 Lic=-0.866 Lps=0.000 saltadas=0 nofinitas=0 mem=2.7GB
+      val[fusion]: orig mAP 16.4 R1 30.0 R5 50.0 R10 58.0 | LR mAP 12.9 R1 21.0 R5 45.0 R10 55.0 | caida 3.5 | F-clusters(val)=0.29 | 27s
+[ep 04/40] K=257 agrup=0.72 LRetq=2986 Lcc=5.380 Lic=-0.870 Lps=0.000 saltadas=0 nofinitas=0 mem=2.7GB
+      val[fusion]: orig mAP 18.7 R1 30.0 R5 50.0 R10 65.0 | LR mAP 15.9 R1 24.0 R5 50.0 R10 56.0 | caida 2.8 | F-clusters(val)=0.27 | 26s
+[ep 05/40] K=261 agrup=0.73 LRetq=3041 Lcc=5.056 Lic=-0.879 Lps=0.000 saltadas=0 nofinitas=0 mem=2.7GB
+      val[fusion]: orig mAP 19.7 R1 33.0 R5 54.0 R10 69.0 | LR mAP 17.6 R1 27.0 R5 51.0 R10 65.0 | caida 2.1 | F-clusters(val)=0.25 | 26s
+[ep 06/40] K=254 agrup=0.78 LRetq=3213 Lcc=4.716 Lic=-0.885 Lps=0.000 saltadas=0 nofinitas=0 mem=2.7GB
+      val[fusion]: orig mAP 23.1 R1 44.0 R5 62.0 R10 68.0 | LR mAP 20.4 R1 32.0 R5 55.0 R10 65.0 | caida 2.7 | F-clusters(val)=0.28 | 26s
+[ep 07/40] K=265 agrup=0.77 LRetq=3183 Lcc=4.640 Lic=-0.889 Lps=0.000 saltadas=0 nofinitas=0 mem=2.7GB
+      val[fusion]: orig mAP 26.6 R1 48.0 R5 63.0 R10 76.0 | LR mAP 23.3 R1 40.0 R5 58.0 R10 67.0 | caida 3.3 | F-clusters(val)=0.40 | 26s
+[ep 08/40] K=274 agrup=0.80 LRetq=3335 Lcc=4.371 Lic=-0.896 Lps=0.000 saltadas=0 nofinitas=0 mem=2.7GB
+      val[fusion]: orig mAP 25.8 R1 54.0 R5 64.0 R10 74.0 | LR mAP 23.3 R1 42.0 R5 63.0 R10 73.0 | caida 2.4 | F-clusters(val)=0.31 | 26s
+[ep 09/40] K=287 agrup=0.82 LRetq=3419 Lcc=4.283 Lic=-0.892 Lps=0.000 saltadas=0 nofinitas=0 mem=2.8GB
+      val[fusion]: orig mAP 27.2 R1 47.0 R5 72.0 R10 81.0 | LR mAP 25.5 R1 43.0 R5 64.0 R10 76.0 | caida 1.7 | F-clusters(val)=0.34 | 26s
+[ep 10/40] K=280 agrup=0.82 LRetq=3393 Lcc=3.693 Lic=-0.893 Lps=0.000 saltadas=0 nofinitas=0 mem=2.8GB
+      val[fusion]: orig mAP 29.1 R1 49.0 R5 69.0 R10 80.0 | LR mAP 25.6 R1 43.0 R5 63.0 R10 71.0 | caida 3.5 | F-clusters(val)=0.35 | 26s
+[ep 11/40] K=280 agrup=0.84 LRetq=3479 Lcc=4.070 Lic=-0.883 Lps=0.770 saltadas=0 nofinitas=0 mem=3.0GB
+      val[fusion]: orig mAP 31.4 R1 50.0 R5 70.0 R10 77.0 | LR mAP 28.6 R1 44.0 R5 67.0 R10 76.0 | caida 2.8 | F-clusters(val)=0.32 | 33s
+[ep 12/40] K=265 agrup=0.85 LRetq=3526 Lcc=4.277 Lic=-0.879 Lps=0.656 saltadas=0 nofinitas=0 mem=3.0GB
+      val[fusion]: orig mAP 28.4 R1 48.0 R5 69.0 R10 77.0 | LR mAP 26.2 R1 43.0 R5 68.0 R10 73.0 | caida 2.2 | F-clusters(val)=0.24 | 33s
+[ep 13/40] K=272 agrup=0.85 LRetq=3513 Lcc=4.014 Lic=-0.881 Lps=0.606 saltadas=0 nofinitas=0 mem=3.0GB
+      val[fusion]: orig mAP 29.8 R1 49.0 R5 69.0 R10 77.0 | LR mAP 27.9 R1 50.0 R5 65.0 R10 73.0 | caida 1.9 | F-clusters(val)=0.32 | 33s
+[ep 14/40] K=248 agrup=0.84 LRetq=3479 Lcc=3.976 Lic=-0.877 Lps=0.573 saltadas=0 nofinitas=0 mem=3.0GB
+      val[fusion]: orig mAP 27.4 R1 47.0 R5 65.0 R10 74.0 | LR mAP 27.0 R1 49.0 R5 60.0 R10 70.0 | caida 0.4 | F-clusters(val)=0.34 | 33s
+[ep 15/40] K=273 agrup=0.81 LRetq=3361 Lcc=4.096 Lic=-0.872 Lps=0.628 saltadas=0 nofinitas=0 mem=3.0GB
+      val[fusion]: orig mAP 30.8 R1 45.0 R5 71.0 R10 75.0 | LR mAP 31.4 R1 52.0 R5 68.0 R10 73.0 | caida -0.6 | F-clusters(val)=0.38 | 33s
+[ep 16/40] K=266 agrup=0.85 LRetq=3530 Lcc=3.908 Lic=-0.871 Lps=0.580 saltadas=0 nofinitas=0 mem=3.0GB
+      val[fusion]: orig mAP 29.4 R1 46.0 R5 77.0 R10 81.0 | LR mAP 29.0 R1 49.0 R5 71.0 R10 79.0 | caida 0.4 | F-clusters(val)=0.26 | 33s
+[ep 17/40] K=250 agrup=0.85 LRetq=3537 Lcc=3.653 Lic=-0.869 Lps=0.537 saltadas=0 nofinitas=0 mem=3.0GB
+      val[fusion]: orig mAP 29.6 R1 51.0 R5 70.0 R10 75.0 | LR mAP 27.6 R1 46.0 R5 63.0 R10 75.0 | caida 2.0 | F-clusters(val)=0.40 | 33s
+[ep 18/40] K=252 agrup=0.85 LRetq=3542 Lcc=3.785 Lic=-0.869 Lps=0.555 saltadas=0 nofinitas=0 mem=3.0GB
+      val[fusion]: orig mAP 30.0 R1 49.0 R5 72.0 R10 77.0 | LR mAP 27.2 R1 50.0 R5 64.0 R10 72.0 | caida 2.8 | F-clusters(val)=0.43 | 33s
+[ep 19/40] K=250 agrup=0.87 LRetq=3621 Lcc=3.583 Lic=-0.867 Lps=0.505 saltadas=0 nofinitas=0 mem=3.0GB
+      val[fusion]: orig mAP 31.8 R1 56.0 R5 79.0 R10 81.0 | LR mAP 29.5 R1 53.0 R5 73.0 R10 77.0 | caida 2.3 | F-clusters(val)=0.43 | 33s
+[ep 20/40] K=253 agrup=0.86 LRetq=3564 Lcc=3.630 Lic=-0.862 Lps=0.515 saltadas=0 nofinitas=0 mem=3.0GB
+      val[fusion]: orig mAP 30.4 R1 53.0 R5 70.0 R10 78.0 | LR mAP 28.7 R1 48.0 R5 72.0 R10 74.0 | caida 1.7 | F-clusters(val)=0.36 | 33s
+[ep 21/40] K=238 agrup=0.87 LRetq=3621 Lcc=3.611 Lic=-0.879 Lps=0.546 saltadas=0 nofinitas=0 mem=3.0GB
+      val[fusion]: orig mAP 32.7 R1 58.0 R5 76.0 R10 79.0 | LR mAP 31.4 R1 56.0 R5 73.0 R10 79.0 | caida 1.3 | F-clusters(val)=0.40 | 33s
+[ep 22/40] K=238 agrup=0.88 LRetq=3641 Lcc=3.350 Lic=-0.888 Lps=0.528 saltadas=0 nofinitas=0 mem=3.0GB
+      val[fusion]: orig mAP 32.8 R1 60.0 R5 76.0 R10 78.0 | LR mAP 31.6 R1 56.0 R5 73.0 R10 79.0 | caida 1.3 | F-clusters(val)=0.35 | 33s
+[ep 23/40] K=245 agrup=0.89 LRetq=3672 Lcc=3.100 Lic=-0.888 Lps=0.504 saltadas=0 nofinitas=0 mem=3.0GB
+      val[fusion]: orig mAP 32.0 R1 57.0 R5 75.0 R10 82.0 | LR mAP 31.3 R1 56.0 R5 77.0 R10 80.0 | caida 0.7 | F-clusters(val)=0.41 | 33s
+[ep 24/40] K=241 agrup=0.88 LRetq=3646 Lcc=3.018 Lic=-0.885 Lps=0.435 saltadas=0 nofinitas=0 mem=3.0GB
+      val[fusion]: orig mAP 31.2 R1 57.0 R5 73.0 R10 78.0 | LR mAP 30.4 R1 52.0 R5 74.0 R10 80.0 | caida 0.8 | F-clusters(val)=0.40 | 33s
+[ep 25/40] K=234 agrup=0.88 LRetq=3658 Lcc=3.079 Lic=-0.879 Lps=0.402 saltadas=0 nofinitas=0 mem=3.0GB
+      val[fusion]: orig mAP 29.2 R1 58.0 R5 71.0 R10 76.0 | LR mAP 29.2 R1 54.0 R5 73.0 R10 79.0 | caida 0.0 | F-clusters(val)=0.34 | 33s
+[ep 26/40] K=260 agrup=0.87 LRetq=3588 Lcc=3.077 Lic=-0.878 Lps=0.469 saltadas=0 nofinitas=0 mem=3.0GB
+      val[fusion]: orig mAP 22.7 R1 42.0 R5 58.0 R10 70.0 | LR mAP 25.9 R1 48.0 R5 71.0 R10 74.0 | caida -3.2 | F-clusters(val)=0.28 | 33s
+[ep 27/40] K=248 agrup=0.80 LRetq=3337 Lcc=3.213 Lic=-0.869 Lps=0.461 saltadas=0 nofinitas=0 mem=3.0GB
+      val[fusion]: orig mAP 20.3 R1 40.0 R5 58.0 R10 64.0 | LR mAP 24.3 R1 46.0 R5 68.0 R10 74.0 | caida -4.0 | F-clusters(val)=0.28 | 33s
+[ep 28/40] K=244 agrup=0.80 LRetq=3316 Lcc=2.987 Lic=-0.866 Lps=0.419 saltadas=0 nofinitas=0 mem=3.0GB
+      val[fusion]: orig mAP 20.4 R1 40.0 R5 61.0 R10 65.0 | LR mAP 24.5 R1 50.0 R5 69.0 R10 74.0 | caida -4.1 | F-clusters(val)=0.22 | 33s
+[ep 29/40] K=236 agrup=0.80 LRetq=3314 Lcc=2.940 Lic=-0.861 Lps=0.373 saltadas=0 nofinitas=0 mem=3.0GB
+      val[fusion]: orig mAP 17.2 R1 37.0 R5 55.0 R10 63.0 | LR mAP 22.2 R1 44.0 R5 63.0 R10 73.0 | caida -5.0 | F-clusters(val)=0.21 | 33s
+[ep 30/40] K=232 agrup=0.77 LRetq=3208 Lcc=2.786 Lic=-0.855 Lps=0.393 saltadas=0 nofinitas=0 mem=3.0GB
+      val[fusion]: orig mAP 18.9 R1 40.0 R5 59.0 R10 67.0 | LR mAP 23.7 R1 49.0 R5 66.0 R10 72.0 | caida -4.8 | F-clusters(val)=0.24 | 33s
+[ep 31/40] K=227 agrup=0.80 LRetq=3304 Lcc=2.741 Lic=-0.851 Lps=0.311 saltadas=0 nofinitas=0 mem=3.0GB
+      val[fusion]: orig mAP 17.5 R1 40.0 R5 55.0 R10 62.0 | LR mAP 22.3 R1 44.0 R5 66.0 R10 73.0 | caida -4.8 | F-clusters(val)=0.21 | 33s
+[ep 32/40] K=225 agrup=0.79 LRetq=3283 Lcc=2.687 Lic=-0.846 Lps=0.279 saltadas=0 nofinitas=0 mem=3.0GB
+      val[fusion]: orig mAP 17.3 R1 35.0 R5 55.0 R10 62.0 | LR mAP 21.2 R1 45.0 R5 64.0 R10 74.0 | caida -3.9 | F-clusters(val)=0.28 | 33s
+[ep 33/40] K=234 agrup=0.80 LRetq=3315 Lcc=2.576 Lic=-0.841 Lps=0.286 saltadas=0 nofinitas=0 mem=3.0GB
+      val[fusion]: orig mAP 18.8 R1 39.0 R5 57.0 R10 64.0 | LR mAP 21.1 R1 44.0 R5 67.0 R10 70.0 | caida -2.3 | F-clusters(val)=0.31 | 33s
+[ep 34/40] K=241 agrup=0.81 LRetq=3348 Lcc=2.616 Lic=-0.833 Lps=0.282 saltadas=0 nofinitas=0 mem=3.0GB
+      val[fusion]: orig mAP 19.6 R1 38.0 R5 59.0 R10 64.0 | LR mAP 20.9 R1 44.0 R5 67.0 R10 73.0 | caida -1.3 | F-clusters(val)=0.31 | 33s
+[ep 35/40] K=238 agrup=0.83 LRetq=3421 Lcc=2.638 Lic=-0.834 Lps=0.242 saltadas=0 nofinitas=0 mem=3.0GB
+      val[fusion]: orig mAP 23.3 R1 44.0 R5 63.0 R10 67.0 | LR mAP 23.1 R1 42.0 R5 67.0 R10 73.0 | caida 0.2 | F-clusters(val)=0.33 | 33s
+[ep 36/40] K=236 agrup=0.84 LRetq=3485 Lcc=2.590 Lic=-0.829 Lps=0.243 saltadas=0 nofinitas=0 mem=3.0GB
+      val[fusion]: orig mAP 23.8 R1 45.0 R5 65.0 R10 69.0 | LR mAP 24.1 R1 49.0 R5 67.0 R10 75.0 | caida -0.3 | F-clusters(val)=0.30 | 33s
+[ep 37/40] K=226 agrup=0.84 LRetq=3478 Lcc=2.548 Lic=-0.828 Lps=0.212 saltadas=0 nofinitas=0 mem=3.0GB
+      val[fusion]: orig mAP 21.2 R1 42.0 R5 61.0 R10 69.0 | LR mAP 22.6 R1 43.0 R5 61.0 R10 69.0 | caida -1.4 | F-clusters(val)=0.26 | 33s
+[ep 38/40] K=223 agrup=0.83 LRetq=3458 Lcc=2.530 Lic=-0.830 Lps=0.213 saltadas=0 nofinitas=0 mem=3.0GB
+      val[fusion]: orig mAP 21.3 R1 42.0 R5 58.0 R10 66.0 | LR mAP 22.6 R1 44.0 R5 62.0 R10 70.0 | caida -1.3 | F-clusters(val)=0.29 | 33s
+[ep 39/40] K=219 agrup=0.85 LRetq=3513 Lcc=2.383 Lic=-0.830 Lps=0.193 saltadas=0 nofinitas=0 mem=3.0GB
+      val[fusion]: orig mAP 21.8 R1 45.0 R5 59.0 R10 67.0 | LR mAP 22.6 R1 42.0 R5 59.0 R10 71.0 | caida -0.7 | F-clusters(val)=0.27 | 33s
+[ep 40/40] K=222 agrup=0.86 LRetq=3556 Lcc=2.387 Lic=-0.828 Lps=0.169 saltadas=0 nofinitas=0 mem=3.0GB
+      val[fusion]: orig mAP 22.3 R1 47.0 R5 61.0 R10 70.0 | LR mAP 22.7 R1 40.0 R5 61.0 R10 74.0 | caida -0.4 | F-clusters(val)=0.26 | 33s
+entrenamiento terminado. mejor puntaje de validacion: 32.20093570678148

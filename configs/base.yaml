@@ -1,0 +1,45 @@
+# Rutas (relativas a la raiz del proyecto)
+data_dir: data
+cache_dir: cache
+results_dir: results
+ckpt_dir: ckpts
+
+seed: 42
+
+# --- Resolucion ---
+# El dataset trae las consultas LR reducidas x4 con bicubica (32x16). Mismo factor aqui.
+lr_factor: 4
+# Camaras cuyas imagenes de entrenamiento se tratan como "baja resolucion" (rol LR del paper).
+lr_cameras: [1, 2, 5]
+
+# --- Super-resolucion (preproceso) ---
+sr_model: caidas/swin2SR-classical-sr-x4-64   # Swin2SR x4 entrenada con degradacion bicubica
+
+# --- Hiperparametros de DRFM tomados del paper (sec. 4.2) ---
+drfm:
+  epochs: 40
+  lr: 0.00035
+  weight_decay: 0.0005
+  batch_cc_ic: 64        # batch para L_cc y L_ic
+  batch_ps: 16           # batch para L_ps (muestras ambiguas)
+  alpha_memoria: 0.2     # tasa de actualizacion de la memoria
+  tau_c: 0.04
+  tau_l: 0.04
+  tau_h: 0.05
+  tau_s: 0.02
+  n_negativos: 20        # |Q|
+  t: 0.8                 # proporcion de CPG (0.8 en Market-1501)
+  lambda_ps: 1.5
+  epoca_inicio_ps: 10    # L_ps entra despues de la epoca 10
+  dbscan_min_samples: 4
+  p_clusters: 16         # 16 clusters x 4 instancias = lote de 64
+  k_instancias: 4
+  # NO especificados en el paper (decision nuestra; se ajustan con validacion):
+  dbscan_distancia: jaccard   # jaccard de k-reciprocos (como SpCL / Cluster Contrast)
+  jaccard_k1: 30
+  jaccard_k2: 6
+  dbscan_eps: 0.5        # sobre la distancia Jaccard; calibrado en validacion (scripts/calibrar_eps.py)
+  iters_por_epoca: 200   # el paper no dice cuantas iteraciones por epoca
+  lr_decay_epoca: 20     # el paper no menciona schedule: lr x0.1 a la mitad del entrenamiento
+  lr_decay_gamma: 0.1
+  grad_clip: 10.0        # recorte de la norma del gradiente (seguridad; el paper no lo menciona)

@@ -1,0 +1,8 @@
+Swin2SR cargada en cpu
+train: (11043, 3, 128, 64) en 665s
+
+PSNR frente al original (train, 11043 imagenes):
+  ampliacion bicubica : 24.02 dB
+  Swin2SR x4          : 26.57 dB
+PSNR consultas de prueba: bicubica 23.85 dB | Swin2SR 26.25 dB
+cache guardada en /home/eros.aranibar/lab3/cache
